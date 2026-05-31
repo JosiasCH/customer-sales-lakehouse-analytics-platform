@@ -30,3 +30,8 @@ metastore_db/
 # OS
 .DS_Store
 Thumbs.db
+
+# Power BI export outputs
+data/powerbi/*.csv
+data/powerbi/*.json
+!data/powerbi/.gitkeep
